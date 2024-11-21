@@ -1,6 +1,5 @@
 {
   "name": "app-weather-react",
-  "homepage": "https://abdelilah-elaziri.github.io/app-weather-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
