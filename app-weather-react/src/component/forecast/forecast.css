@@ -1,0 +1,128 @@
+.title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dialy-item{
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.icon-small{
+    width: 50px;
+}
+
+.days{
+    color: #212121;
+    flex: 1 1;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.description{
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.min-max{
+    color: #757575;
+}
+
+.daily-details-grid{
+    grid-row-gap: 0;
+    row-gap: 0;
+    grid-column-gap: 15px;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 20px;
+}
+
+.daily-details-grid-item{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.daily-details-grid-item label:first-child{
+    color: #757575;
+    
+}
+
+.daily-details-grid-item label:last-child{
+    color: #212121;
+}
+
+
+.title {
+    width: 100%;
+    /* border: 2px solid green; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .forecast-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .icon-small {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .forecast-details {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .days {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+  }
+  
+  .min-max {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .additional-info {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
